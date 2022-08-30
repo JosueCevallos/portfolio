@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %} BIENVENIDO {% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="left">
+            <h1>Soy desarrollador</h1>
+            <h1>Josue Cevallos</h1>
+            <p>Construyo aplicaciones en Python dinamicas utilizando base de 
+                datos relacionales</p>
+            <a href="#contacto" class="btn">Contáctame</a>
+        </div>
+        <div class="rigth">
+            <img src="{{ url_for('static', filename='big-data.png') }}" width=600px />
+        </div>
+    </div>
+</div>
+
+{% include 'portfolio/section-firts.html' %}
+{% endblock %}
