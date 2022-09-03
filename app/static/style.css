@@ -1,3 +1,6 @@
+html {
+    font-family: 'Rufina', sans-serif;
+}
 body {
     background-color: #efefef;
     margin: 0;
@@ -71,7 +74,7 @@ html body nav ul li a {
 
 }
 
-.hero {
+.hero p {
     font-family: 'Rubik', sans-serif;
     margin-bottom: 50px;
 }
@@ -104,4 +107,60 @@ a.btn {
 .row {
     display: flex;
     flex-direction: row;
+}
+
+.orange {
+    color: #C64B39;
+}
+
+.padded {
+    padding: 20px 30px;
+}
+
+.vert-pad {
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ddd;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.third {
+    width: 360px;
+    margin: 20px;
+}
+
+.contact-form input {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 30px;
+    width: calc(100% - 20px);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 100px;
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff;
 }
